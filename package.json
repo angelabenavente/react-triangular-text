@@ -1,0 +1,74 @@
+{
+  "name": "react-triangular-text",
+  "description": "A JavaScript utility to display text in a equilateral triangular shape. Supports monospaced fonts for better alignment.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/angelabenavente/react-triangular-text",
+  "author": "Ángela Benavente (https://github.com/angelabenavente)",
+  "repository": "angelabenavente/react-triangular-text",
+  "bugs": {
+    "url": "https://github.com/angelabenavente/react-triangular-text/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "eslint": "npx eslint --ext .js .",
+    "build": "npm run clean && npx tsup"
+
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./*": {
+      "import": "./dist/*.mjs",
+      "require": "./dist/*.js"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.8",
+    "eslint": "^9.19.0",
+    "prettier": "^3.4.2",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [
+    "react-triangular-text",
+    "text-triangular",
+    "react-triangle-text",
+    "text-triangle",
+    "text-layout",
+    "text-effect",
+    "triangular-text",
+    "triangle-text",
+    "text-formatter",
+    "typography",
+    "monospace",
+    "font-layout",
+    "dom-manipulation",
+    "html-text",
+    "javascript",
+    "text-arrangement",
+    "text-shape",
+    "text-styling",
+    "css-transform",
+    "font-effect",
+    "letters-triangular",
+    "letters-triangle",
+    "utility",
+    "triangular",
+    "triangle",
+    "shape",
+    "js"
+  ],
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}
