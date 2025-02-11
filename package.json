@@ -1,7 +1,7 @@
 {
   "name": "react-triangular-text",
   "description": "A JavaScript utility to display text in a equilateral triangular shape. Supports monospaced fonts for better alignment.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "homepage": "https://github.com/angelabenavente/react-triangular-text",
   "author": "Ángela Benavente (https://github.com/angelabenavente)",

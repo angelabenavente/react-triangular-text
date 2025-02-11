@@ -68,7 +68,7 @@ import TriangularText from 'react-triangular-text';
 ```
 import TriangularText from 'react-triangular-text';
 
-<TriangleText
+<TriangularText
   text="This words are being displayed as a triangle."
   id="container2"
   options={{
@@ -85,13 +85,12 @@ import TriangularText from 'react-triangular-text';
 
 ![react-triangular-text](https://github.com/user-attachments/assets/cb4e2652-639f-4ade-87a9-4a171a1c2cd3)
 
-
 ### Smaller triangle size example with font size and color changes
 
 ```
 import TriangularText from 'react-triangular-text';
 
-<TriangleText
+<TriangularText
   text="Theseareverylongwordsplacedinatriangularshape"
   id="container2"
   options={{
@@ -113,7 +112,7 @@ import TriangularText from 'react-triangular-text';
 ```
 import TriangularText from 'react-triangular-text';
 
-<TriangleText
+<TriangularText
     text="These·long·text·is·placed·in·a·triangle·shape·"
     id="container2"
     options={{
@@ -128,11 +127,8 @@ import TriangularText from 'react-triangular-text';
 
 ## Result
 
-
 ![Captura de pantalla 2025-02-11 a las 20 12 47](https://github.com/user-attachments/assets/66d45785-7a45-4c1b-94c7-9223bbb6d7cd)
 
-
- 
 ---
 
 ## 🛠️ Development
