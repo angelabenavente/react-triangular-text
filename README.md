@@ -68,21 +68,71 @@ import TriangularText from 'react-triangular-text';
 ```
 import TriangularText from 'react-triangular-text';
 
- <TriangularText
-    text="This words are being displayed as triangular "
+<TriangleText
+  text="This words are being displayed as a triangle."
+  id="container2"
+  options={{
+    color: "black",
+    fontFamily: "Menlo",
+    fontWeight: 700,
+    fontSize: 16,
+  }}
+  size={420}
+/>
+```
+
+## Result
+
+![react-triangular-text](https://github.com/user-attachments/assets/cb4e2652-639f-4ade-87a9-4a171a1c2cd3)
+
+
+### Smaller triangle size example with font size and color changes
+
+```
+import TriangularText from 'react-triangular-text';
+
+<TriangleText
+  text="Theseareverylongwordsplacedinatriangularshape"
+  id="container2"
+  options={{
+    color: "blue",
+    fontFamily: "Menlo",
+    fontWeight: 700,
+    fontSize: 12,
+  }}
+  size={250}
+/>
+```
+
+## Result
+
+![react-triangular-text-2](https://github.com/user-attachments/assets/b4422200-395b-4365-9b97-6b61e0684f40)
+
+### Presentation proposal with another color and font weight
+
+```
+import TriangularText from 'react-triangular-text';
+
+<TriangleText
+    text="These·long·text·is·placed·in·a·triangle·shape·"
     id="container2"
     options={{
-      color: "black",
+      color: "red",
       fontFamily: "Menlo",
-      fontWeight: 700,
-      fontSize: 16,
+      fontWeight: 400,
+      fontSize: 14,
     }}
-    size={420}
+    size={400}
   />
 ```
 
 ## Result
 
+
+![Captura de pantalla 2025-02-11 a las 20 12 47](https://github.com/user-attachments/assets/66d45785-7a45-4c1b-94c7-9223bbb6d7cd)
+
+
+ 
 ---
 
 ## 🛠️ Development
